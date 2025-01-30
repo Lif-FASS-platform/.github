@@ -58,7 +58,6 @@
 - [ ] Feature switched if necessary?
 
 ## :white_check_mark: QA Handover checklist:
-[QA Handover checklist page](https://fass.atlassian.net/wiki/spaces/MF/pages/230883332/QA+handover+checklist)
 
 - [ ] The requirements are fulfilled by my solution. <!--- Do we have use cases or requirements for the area? They can usually be found here: Scenarios and Use Cases. Provide a link. If not, describe how has the specification been delivered? For RSF, a general “requirement” is often that it should work like the current Fass. Verify that all information/functionality from the current site is there - unless otherwise specified. -->
 - [ ] All expected functionality is in place.

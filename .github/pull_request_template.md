@@ -1,7 +1,7 @@
 ## 🛠️ Description
 <!--- Describe your changes so that a reviewer can easily identify and understand them -->
 
-## 📸 Screenshot or animation
+## 📸 Screenshot or recording
 <!--- Add screenshots of what you changed, if applicable -->
 
 ## 🧪 How Has This Been Tested?

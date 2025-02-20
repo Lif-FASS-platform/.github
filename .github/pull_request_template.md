@@ -24,8 +24,8 @@
 
 ### Code Format and Style
 - [ ] I've run Prettier lint
-- [ ] I've adressed all suggestions from SonarQube
-- [ ] I haven't left uneccesary logs or comments
+- [ ] I've addressed all suggestions from SonarQube
+- [ ] I haven't left unnecessary logs or comments
 
 ### Maintainability
 - [ ] Is the code easy to read and understand?

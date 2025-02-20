@@ -41,5 +41,4 @@
 
 ### Architecture
 - [ ] Is the separation of concerns-principle followed?
-- [ ] Relevant parameters are configurable?
-- [ ] Feature switched if necessary?
+- [ ] Are all relevant parameters configurable and is the feature toggleable if necessary?

@@ -1,54 +1,45 @@
 ## 🛠️ Description
+<!--- Describe your changes so that a reviewer can easily identify and understand them -->
 
-<!--- Describe your changes in detail. -->
-
-## 🔗 Related Issue
-
-<!--- Please link to the JIRA issue here: -->
-
-## ✏️ Motivation and Context
-
-<!--- Why is this change required? What problem does it solve? -->
+## 📸 Screenshots
+<!--- Add screenshots of what you changed, if applicable -->
 
 ## 🧪 How Has This Been Tested?
-
 <!--- Please describe in detail how you tested your changes. -->
-<!--- Include details of your testing environment, and the tests you ran to -->
-<!--- see how your change affects other areas of the code, etc. -->
-
-## 📸 Screenshots (if appropriate):
-
+<!--- Consider how your change affects other areas of the code as well -->
 
 ## 🖺 Documentation
-
 <!--- Please add the link to Confluence if there is a documentation -->
 
-## 📋 PR Checklist:
+## 🔗 Related Issue
+<!--- Please link to the JIRA issue here: -->
 
+## 📋 PR Checklist
 <!--- Go over all the following points, and put an `x` in all the boxes that apply. -->
 
-### Code Formatting
-- [ ] My code follows the code style.
-- [ ] Unecessary whitespaces are removed.
+### Testing
+- [ ] I have added tests to cover my changes
+- [ ] I have considered how my changes can affect other parts of the system, and tested those areas
+- [ ] I've verified that my changes fulfil non-functional requirements like performance and accessibility
+
+### Code Format and Style
+- [ ] I've run Prettier lint
+- [ ] I've adressed all suggestions from SonarQube
+- [ ] I haven't left uneccesary logs or comments
 
 ### Maintainability
-- [ ] Is the code easy to read?
+- [ ] Is the code easy to read and understand?
 - [ ] Is the code not repeated (DRY Principle)?
-- [ ] Is the code method/class not too long?
+- [ ] Is the code method/class structure good?
 
 ### Documentation
-- [ ] If my change requires a change to the documentation, I have updated it accordingly.
-
-### Testing
-- [ ] I have added tests to cover my changes.
+- [ ] I have updated related documentation if necessary
 
 ### Best Practices
-- [ ] Are different errors handled correctly?
-- [ ] Are errors and warnings logged?
-- [ ] No unnecessary comments?
+- [ ] I have proper error handling, especially if making requests to an external endpoint
+- [ ] Important Errors and warnings are logged on an adequate logging level
 
 ### Architecture
-- [ ] Is it secure/free from risk?
-- [ ] Are separations of concerned followed?
-- [ ] Relevant Parameters are configurable?
+- [ ] Is the separation of concerns-principle followed?
+- [ ] Relevant parameters are configurable?
 - [ ] Feature switched if necessary?

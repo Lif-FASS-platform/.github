@@ -20,7 +20,7 @@
 ### Testing
 - [ ] I have added tests to cover my changes
 - [ ] I have considered how my changes can affect other parts of the system, and tested those areas
-- [ ] I've verified that my changes fulfil non-functional requirements like performance and accessibility
+- [ ] I've verified that my changes fulfill non-functional requirements like performance and accessibility
 
 ### Code Format and Style
 - [ ] I've run Prettier lint

@@ -36,13 +36,8 @@
 - [ ] I have updated related documentation if necessary
 
 ### Implementation
-- [ ] Component has right architecture
-- [ ] Is server side rendered if can be implemented without JavaScript usage
-- [ ] Is client side rendered if can't be implemented without hooks or event listeners
-- [ ] Page has right architecture
-- [ ] Can be rendered as static site, If does not require runtime data (like request params etc) and JavaScript usage
+- [ ] I've considered rendering techniques (like client vs server) and chosen a fitting method 
 - [ ] Responsiveness is made without JS usage - only via Tailwind usage or custom CSS implementation
-- [ ] Client Components that handles logic via JavaScript cann't be replaced by solutions that not involves JS like redirection with Link instead of button or expanding section with details element instead of custom client component
 
 ### Best Practices
 - [ ] I have proper error handling, especially if making requests to an external endpoint

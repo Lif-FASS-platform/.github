@@ -1,48 +1,21 @@
-## 🛠️ Description
-<!--- Describe your changes so that a reviewer can easily identify and understand them -->
+### Description & Context
+**What:** Summary of changes.
 
-## 📸 Screenshot or recording
-<!--- Add screenshots of what you changed, if applicable -->
+**Why:** Link to JIRA issue or brief explanation of the problem solved.
 
-## 🧪 How Has This Been Tested?
-<!--- Please describe in detail how you tested your changes. -->
-<!--- Consider how your change affects other areas of the code as well -->
+### ⚠️ Critical Impact & Environment
+- [ ] **Breaking Changes:** Does this require team members to update `.env` files, run new migrations, or install new dependencies? (If yes, please detail below).
+- [ ] **Local Environment:** Is there any specific setup needed to run/test this locally?
 
-## 🖺 Documentation
-<!--- Please add the link to Confluence if there is a documentation -->
+### ✅ Developer Checklist
+- [ ] **Functional:** All requirements/use cases are met and the logic is sound.
+- [ ] **Design:** UI aligns with Figma across standard breakpoints (375px to 1440px+).
+- [ ] **Maintainability:** Code is readable, avoids "magic values," and follows DRY principles.
+- [ ] **Testing:** New tests added where applicable; all existing tests pass.
+- [ ] **Safety:** Errors are handled/logged and there are no obvious security risks.
+- [ ] **Review:** The code/PR has been reviewed by an AI model.
 
-## 🔗 Related Issue
-<!--- Please link to the JIRA issue here: -->
-
-## 📋 PR Checklist
-<!--- Go over all the following points, and put an `x` in all the boxes that apply. -->
-
-### Testing
-- [ ] I have added tests to cover my changes
-- [ ] I have considered how my changes can affect other parts of the system, and tested those areas
-- [ ] I've verified that my changes fulfill non-functional requirements like performance and accessibility
-
-### Code Format and Style
-- [ ] I've run Prettier lint
-- [ ] I've addressed all suggestions from SonarQube
-- [ ] I haven't left unnecessary logs or comments
-
-### Maintainability
-- [ ] Is the code easy to read and understand?
-- [ ] Is the code not repeated (DRY Principle)?
-- [ ] Is the code method/class structure good?
-
-### Documentation
-- [ ] I have updated related documentation if necessary
-
-### Implementation
-- [ ] I've considered rendering techniques (like client vs server) and chosen a fitting method 
-- [ ] Responsiveness is made without JS usage - only via Tailwind usage or custom CSS implementation
-
-### Best Practices
-- [ ] I have proper error handling, especially if making requests to an external endpoint
-- [ ] Important Errors and warnings are logged on an adequate logging level
-
-### Architecture
-- [ ] Is the separation of concerns-principle followed?
-- [ ] Are all relevant parameters configurable and is the feature toggleable if necessary?
+### 🧪 QA Ready?
+- [ ] Verified in the Dev environment.
+- [ ] Performance is acceptable for the scope of this change.
+- [ ] [QA Handover Link](https://fass.atlassian.net/wiki/spaces/MF/pages/230883332/QA+handover+checklist) (Consult if this is a high-risk feature).

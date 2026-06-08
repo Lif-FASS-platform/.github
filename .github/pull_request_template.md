@@ -1,11 +1,11 @@
 ### Description & Context
-**What:** Summary of changes.
+**What:** <!--Summary of changes.-->
 
-**Why:** Link to JIRA issue or brief explanation of the problem solved.
+**Why:** <!--Link to JIRA issue or brief explanation of the problem solved.-->
 
 ### ⚠️ Critical Impact & Environment
 - [ ] **Breaking Changes:** Does this require team members to update `.env` files, run new migrations, or install new dependencies? (If yes, please detail below).
-- [ ] **Local Environment:** Is there any specific setup needed to run/test this locally?
+- [ ] **Local Environment:** Is there any specific setup needed to run/test this locally that the Team need to know about?
 
 ### ✅ Developer Checklist
 - [ ] **Functional:** All requirements/use cases are met and the logic is sound.
@@ -16,6 +16,5 @@
 - [ ] **Review:** The code/PR has been reviewed by an AI model.
 
 ### 🧪 QA Ready?
-- [ ] Verified in the Dev environment.
-- [ ] Performance is acceptable for the scope of this change.
+- [ ] Performance has been tested and is acceptable for the scope of this change.
 - [ ] [QA Handover Link](https://fass.atlassian.net/wiki/spaces/MF/pages/230883332/QA+handover+checklist) (Consult if this is a high-risk feature).
